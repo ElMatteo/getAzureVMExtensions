@@ -22,11 +22,11 @@ Compte Azure avec les autorisations nécessaires pour lister les machines virtue
 ## Installation
 Clonez ce dépôt sur votre machine locale :<br>
 git clone https://github.com/ElMatteo/getAzureVMExtensions.git<br>
-cd azure-vm-extension-scanner<br>
+cd getAzureVMExtensions<br>
 
 ## Exécutez le script :
-chmod +x azure_vm_extension_scanner.sh<br>
-./azure_vm_extension_scanner.sh<br>
+chmod +x script.sh<br>
+./script.sh<br>
 
 ## Utilisation
 Assurez-vous que le fichier resources_groups.csv est présent dans le même répertoire que le script. Le fichier doit contenir une liste des groupes de ressources à scanner, un par ligne.<br>
